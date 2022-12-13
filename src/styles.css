@@ -1,0 +1,212 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+@font-face {
+    font-family: avenir;
+    src: url(../src/assets/font/avenir_ff/AvenirLTStd-Book.otf) format("opentype");
+}
+
+.tittle {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.background__unit:hover, .depto {
+    stroke: rgba(100, 100, 100, 0.8);
+    stroke-width: 2;
+}
+
+.letters__unit {
+    stroke: rgba(100, 100, 100, 0.8);
+}
+
+body {
+    display: block;
+	font-family: avenir;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    width: 100%;
+    text-align: center;
+}
+
+.language {
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.form-select {
+    border-color: white;
+    margin-left: 1rem;
+    width: 60%;
+}
+
+.cuadro-step {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.cuadro-step:hover {
+    background-color: rgb(220, 220, 220);
+    color: rgba(100, 100, 100, 0.8);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+    transition: 100ms;
+}
+
+section {
+    height: 100%;
+    padding-top: 2rem;
+    /*padding-bottom: 40rem;
+    margin: 1rem;*/
+}
+
+.opciones {
+    height: 850px;
+    overflow-y: scroll;
+}
+
+@media (max-width: 766px) {
+    .opciones {
+        display: contents;
+    }
+
+    div .col-9 {
+        width: 100%;
+    }
+
+    body {
+        overflow: scroll;
+    }
+}
+
+.titulo {
+    padding: 0.4rem;
+    font-weight: bold;
+  }
+
+.sub-titulo {
+    color: rgba(100, 100, 100, 0.8);
+    padding: 0rem;
+}
+
+.encabezado {
+    color: rgba(100, 100, 100, 0.8);
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+.formulario-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.carousel {
+    background-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.collapse {
+    background-color: transparent;
+}
+
+.carousel-control-prev {
+    background-color: rgb(210, 210, 210);
+}
+
+.carousel-control-next {
+    background-color: rgb(210, 210, 210);
+}
+
+.img-color {
+    border-radius: 100%;
+}
+
+.nav-pills {
+    background-color: rgb(230, 230, 230);
+}
+
+.nav-link {
+    color: rgba(100, 100, 100, 0.8);
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link:focus {
+    color: rgba(100, 100, 100, 0.8);
+}
+
+.nav-pills .nav-link.active {
+    color: black;
+    background-color: rgb(210, 210, 210);
+}
+
+.collapse {
+    margin-bottom: 2rem;
+}
+
+.btn-outline-gray {
+    border: 0;
+}
+
+.btn-group-vertical>.btn-check:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.btn-group-vertical>.btn-check:checked+.btn {
+    background-color: rgb(210, 210, 210);
+}
+
+.btn-group-vertical label {
+    text-align: left;
+    padding: 1rem;
+}
+
+.render {
+    height: 100%;
+    width: 100%;
+}
